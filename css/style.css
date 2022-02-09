@@ -1,0 +1,80 @@
+@import url(tablet.css);
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    padding: 10px;
+    font-family:cursive;
+    
+}
+.header-line{
+    margin: 20px 5px 0px 5px;
+    text-align: center;
+    background-color: rgb(180, 141, 141);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(124, 156, 219);
+    margin: 5px;
+}
+
+nav a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+ }
+ nav a:hover{
+     background-color:white;
+     color: black;
+ }
+ .container{
+     display: grid;
+     grid-template-columns: 55% 45%;
+ }
+ 
+ .blog{
+     margin: 5px;
+     padding: 10px;
+     border: 2px solid black;
+     border-radius: 5px;
+     box-shadow: 3px 3px gray;
+     margin-right: 20px;
+  
+ }
+
+ .blog2{
+     border: 2px solid black;
+     border-radius: 5px;
+     margin: 5px;
+     padding: 10px;
+
+}
+.img-2 {
+    width: 50%;
+    padding: 10px;
+}
+.imag-3{
+    width: 50%;
+    padding: 10px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    background-color:rgb(57, 49, 49);
+    margin: 10px 5px 0px 5px;
+    padding: 20px;
+    color: white;
+}
+.social{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.fa-brands{
+    color: rgb(57, 191, 171);
+    font-size: 50px;
+}
