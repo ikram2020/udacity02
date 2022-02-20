@@ -2,23 +2,30 @@
 * {
     box-sizing: border-box;
 }
+h1{
+   padding: 10px;
+    
+}
 
 h2 {
     padding: 10px;
     font-family:cursive;
+    
     
 }
 .header-line{
     margin: 20px 5px 0px 5px;
     text-align: center;
     background-color: rgb(180, 141, 141);
+    
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:rgb(124, 156, 219);
+    background-color:rgb(109, 125, 156);
     margin: 5px;
+    box-shadow: 5px 5px 5px 5px;
 }
 
 nav a{
@@ -30,35 +37,56 @@ nav a{
      background-color:white;
      color: black;
  }
- .container{
+
+ .cards {
      display: grid;
-     grid-template-columns: 55% 45%;
- }
- 
+     column-gap: 10px;
+     grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(98, 169, 184);
+}
+
+.card-image {
+    width: 100%;
+
+}
+
+figure{
+    border: 2px solid black;
+    box-shadow: 1px grey;
+}
+
  .blog{
      margin: 5px;
      padding: 10px;
-     border: 2px solid black;
-     border-radius: 5px;
-     box-shadow: 3px 3px gray;
      margin-right: 20px;
-  
- }
+}
 
  .blog2{
-     border: 2px solid black;
-     border-radius: 5px;
      margin: 5px;
      padding: 10px;
+}
 
-}
-.img-2 {
-    width: 50%;
-    padding: 10px;
-}
 .imag-3{
-    width: 50%;
+    width: 40%;
     padding: 10px;
+}
+button{
+    background-color: white; 
+    color: black;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(74, 71, 71) ;
+}
+button:hover{
+    background-color: rgb(191, 188, 188);
+    color: white;
 }
 
 .footer-content{
@@ -70,11 +98,19 @@ nav a{
     padding: 20px;
     color: white;
 }
+
 .social{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
+
 .fa-brands{
     color: rgb(57, 191, 171);
     font-size: 50px;
+}
+
+@media{max-width: 320px;)and (max-width: 900px;)
+    body{
+        background-color: violet;
+    }
 }
