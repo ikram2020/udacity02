@@ -1,0 +1,18 @@
+
+#hear-1{
+    margin-left: 5px;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Noto Serif Display', serif;}
+
+.form-container{
+    text-align: left;
+    background-image: linear-gradient(to top, #c0c7cb, #b6c3cc, #adbecd, #a5b9ce, #9eb4cf, #9bb5d1, #97b6d2, #93b7d3, #93bed3, #96c5d2, #9ccbd0, #a5d0ce);
+    border-radius: 3px;
+}
+fieldset{
+    font-family: 'Brygada 1918', serif;
+    box-shadow: 2px black;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}

@@ -1,12 +1,43 @@
 
+
 .main-text{
-    border: 1px solid black;
-    margin-top: 20px;
-    padding: 10px;
-    
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
 }
-.worldimag{
-    display: flex;
-    width: 40%;
-    justify-content: right;
+
+.article1{
+    background-color:#ebe7ee;
+    padding: 20px;
 }
+.article2{
+    background-color: rgb(207, 170, 20);
+    padding: 20px;
+}
+.article3{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+figure{
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
+    box-shadow: 1px #808080;
+    margin: 0px;
+}
+figcaption {
+    font-size: 16px;
+    margin: 5px;
+    color: #808080;
+}
+.excerpt {
+    font-size: 20px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+     
