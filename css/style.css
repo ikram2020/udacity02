@@ -143,11 +143,30 @@ a{
     color: rgb(57, 191, 171);
     font-size: 50px;
 }
-
-@media (min-width: 390px) and (max-width: 900px) {
-    body{
-        background-color: rgb(177, 149, 177);
-        float: none;
-        width: 100%;
+@media only screen and (min-width: 768px) and (max-width: 1023px;) {
+    .grid-image{ 
+        grid-template-columns:3fr 1fr 1fr 1fr;
+        padding: 5px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .post-page{
+        grid-template-columns: 1fr;
     }
 }
+@media  screen and (min-width:1024px) {
+    .grid-image{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .post-page{
+        grid-template-columns: 2fr 1fr;
+    }
+}
+@media only screen and (min-width: 768;) and ( max-width: 1023;){
+    .grid-image {
+        grid-template-columns: 1fr 1fr;
+        padding: 5px;
+    }
+}
+    
